@@ -21,7 +21,7 @@ app.use('/person', personRoutes);
 app.use('/menu', menuRoutes);
 
 app.get('/', (req,res)=>{
-  res.send("welcome to our hotel");
+  res.send("welcome to our cafe");
 })
 
 app.listen(PORT, ()=>{
